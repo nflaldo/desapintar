@@ -1,0 +1,102 @@
+.peta{
+    display: flex;
+}
+
+.card-peta{
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    padding: 15px;
+    box-shadow: 0 4px 8px 2px rgba(93, 195, 178, 0.15);
+    width: 100%;
+}
+
+.sub-peta{
+    margin: 64px 0 0 0;
+    padding: 20px 120px;
+}
+
+.sub-peta h3{
+    font-size: 32px;
+    font-weight: 500;
+    color: black;
+    border-bottom: #f15a29 5px solid;
+    display: inline-block;
+}
+
+.text-peta{
+    margin-left: 120px;
+}
+
+.icon-peta{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 120px;
+}
+
+.icon1{
+    background: #FFF2E5;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.icon1 i{
+    padding: 7px 0 0 5px;
+    color: #FFA14B; 
+}
+
+.icon2{
+    background: #EEF9F7;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.icon2 i{
+    padding: 7px 0 0 5px;
+    color: #83D1C4;
+}
+
+.icon3{
+    background: #E9EAEE;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.icon3 i{
+    padding: 7px 0 0 5px;
+    color: #3E4C70;
+}
+
+.btn-selengkapnya a{
+    text-decoration: none;
+    background-color: #f15a29;
+    color: white;
+    border-radius: 100px;
+    font-weight: 600;
+   
+    padding: 12px 24px;
+}
+
+.btn-selengkapnya{
+    padding: 45px 0 64px;
+    margin-left: 120px;
+}
+
+.peta2-img{
+    width: 50%;
+    height: auto;
+    display: flex;
+}
+
+.peta2-img iframe{
+    width: 800px;
+    height: 700px;
+}
+
+.peta1-img{
+    display: none;
+}
+

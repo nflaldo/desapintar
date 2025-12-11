@@ -1,0 +1,713 @@
+/* laptop */
+@media (max-width: 1366px) {
+    html{
+        font-size: 75%;
+    }
+
+    .container{
+        padding: 80px 60px;
+    }
+
+/* header */
+    header{
+        padding: 20px 60px;
+    }
+
+    .masuk-btn a{
+        margin-left: 100px;
+    }
+
+/* hero-section */
+    .hero-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 100px;
+    }
+
+    .hero h2{
+        font-size: 48px;
+    }
+
+    .hero-img img{
+        width: 400px;
+        height: 320px;
+    }
+
+/* apbdesa */
+    .card{
+        padding: 30px;
+    }
+
+    .card h2{
+        font-size: 28px;
+    }
+    
+/* subtext */
+    .sub-text h3{
+        font-size: 28px;
+    }
+    
+/* lihatsemua-btn */
+    .lihatsemua-btn a{
+        margin-left: 75%;
+    }
+
+/* berita */
+    .card-berita{
+        margin: 15px 20px;
+        height: auto;
+    }
+
+    .card-berita img{
+        width: 40%;
+    }
+
+/* informasi-section */
+    .card-info{
+        margin: 20px 30px;
+        padding: 20px 25px;
+    }
+
+    .info-tgl h3{
+        font-size: 32px
+    }
+
+    .info-tgl .bulan{
+        font-size: 18px;
+    }
+
+    .info-tgl2 h3{
+        font-size: 32px
+    }
+
+    .info-tgl2 .bulan{
+        font-size: 18px;
+    }
+
+/* potensi-section */
+    .container-potensi{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .potensi-card{
+        width: 82%;
+    }
+
+/* layanan-section */
+    .layanan{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .card-layanan{
+        width: 90%;
+    }
+
+/* lapor-section */
+    .cardlapor{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .cardlapor img{
+        width: 35%;
+    }
+
+/* peta-section */
+    .peta{
+        gap: 20px;
+    }
+
+    .text-peta{
+        margin-left: 60px;
+    }
+
+    .icon-peta{
+         margin-left: 60px;
+    }
+
+    .btn-selengkapnya a{
+         margin-left: 60px;
+    }
+
+    .peta-img iframe{
+        width: 100%;
+        height: 500px;
+    }
+
+/* footer */
+    .footer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-footer{
+        margin: 30px 0 20px 0;
+    }
+
+    .logo-footer img{
+        width: 200px;
+    } 
+
+    .nav-links-footer{
+        margin: 20px 0;
+        gap: 15px;
+    }
+
+    .line{
+        width: 80%;
+    }
+
+    .icon-footer{
+        padding-left: 0;
+        margin: 20px 0 30px;
+        justify-content: center;
+    }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+    html{
+        font-size: 62.5%;
+    }
+
+    .container{
+        padding: 60px 40px;
+    }
+
+/* header */
+    header{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 30px;
+    }
+
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .masuk-btn a{
+        margin-left: 0;
+        margin-top: 10px;
+        display: inline-block;
+    }
+
+/* hero-section */
+    .hero-section{
+        flex-direction: column-reverse;
+        gap: 40px;
+        text-align: center;
+        padding: 0 30px;
+    }
+
+    .hero{
+        max-width: 100%;
+    }
+
+    .hero h2{
+        font-size: 40px;
+    }
+
+    .hero p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .hero-img img{
+        width: 100%;
+        height: auto;
+        border-radius: 12px;
+    }
+
+    .explore-btn a{
+        font-size: 14px;
+    }
+
+/* apbdesa */
+    .card{
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    .card h2{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .card p{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .tampilkan-btn a{
+        margin: 10px 255px;
+        font-size: 14px;
+    }
+
+/* subtext */
+    .sub-text h3{
+        font-size: 24px;
+        border-width: 4px;
+    }
+
+/* lihatsemua-btn */
+    .lihatsemua-btn{
+        text-align: right;
+    }
+
+    .lihatsemua-btn a{
+       margin-left: 0;
+       display: inline-block;
+    }
+
+/* berita */
+    .card-berita{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        gap: 2px;
+        margin-top: 20px;
+    }
+
+    .card-berita img{
+        width: 100%;
+        border-radius: 22px 22px 0 0;
+    }
+
+    .text-berita{
+        padding: 15px;
+    }
+
+/* informasi-section */
+    .card-info{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .info-tgl{
+        padding: 8px;
+        margin-left: -460px;
+    }
+    
+    .info-tgl h3{
+        font-size: 28px;
+    }
+    .info-tgl .bulan{
+        font-size: 16px;
+    }
+    .info-tgl .jam{
+        font-size: 13px;
+    }
+
+    .info-tgl2{
+        padding: 8px;
+        margin-left: -390px;
+    }
+    
+    .info-tgl2 h3{
+        font-size: 28px;
+    }
+    .info-tgl2 .bulan{
+        font-size: 16px;
+    }
+    .info-tgl2 .jam{
+        font-size: 13px;
+    }
+
+    .text-info h3{
+        font-size: 16px;
+    }
+
+    .ket-info{
+        font-size: 14px;
+    }
+
+    .lihatdetail-btn a{
+        display: inline-block;
+        margin-left: -290px;
+    }
+
+/* potensi-section */
+    .navlinks-potensi{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navlinks2-potensi{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container-potensi{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding: 0 20px;
+    }
+
+    .potensi-card{
+        width: 80%;
+    }
+
+    .jenispotensi{
+        flex-direction: column;
+        margin-bottom: -15px;
+    }
+
+    .kategori{
+        margin-left: -200px;
+    }
+
+    .harga{
+        font-size: 14px;
+        margin-left: -190px;
+    }
+
+/* layanan-section */
+    .layanan{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        margin: 60px auto;
+    }
+
+    .card-layanan img{
+        width: 60%;
+        margin: 30px auto;
+    }
+
+/* lapor-section */
+    .sub-lapor{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;    
+        margin: 40px auto;
+    }
+
+    .poin{
+        width: 20px;
+        height: 16px;
+    }
+
+    .cardlapor{
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+        margin: 15px auto;
+    }
+
+    .cardlapor img{
+        width: 100%;
+        border-radius: 16px;
+    }
+
+    .text-lapor{
+        position: static;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .ditanggapi-btn{
+        position: static;
+        margin-top: 20px;
+    }
+
+    .ditanggapi-btn a{
+        display: inline-block;
+    }
+
+/* peta-section */
+    .peta{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-peta{
+        margin-top: -20px;
+        margin-bottom: 30px;
+        margin-left: 0;
+        justify-content: center;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .icon1 i{
+        padding: 9px 0 0 0;
+        font-size: 12px;
+    }
+
+    .icon2 i{
+        padding: 9px 0 0 0;
+        font-size: 12px;
+    }
+
+    .icon3 i{
+        padding: 9px 0 0 0;
+        font-size: 12px;
+    }
+
+    .icon-peta{
+        margin-top: 10px;
+        margin-left: 0;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .btn-selengkapnya{
+        text-align: center;
+    }
+
+    .btn-selengkapnya a{
+        margin-left: 0;
+    }
+
+    .peta-img{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .peta-img iframe{
+        width: 100%;
+        height: 400px;
+    }
+
+/* footer */
+    .nav-links-footer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .icon-footer li a{
+        font-size: 24px;
+    }
+}
+
+/* hp */
+@media (max-width: 450px) {
+    html{
+        font-size: 55%;
+    }
+
+    .container{
+        padding: 40px 2px;
+    }
+
+/* header */
+    .logo img{
+        width: 120px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .masuk-btn a{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+/* hero-section */
+    .hero h2{
+        font-size: 32px;
+    }
+
+    .hero p{
+        font-size: 15px;
+    }
+
+    .explore-btn a{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+/* apbdesa */
+    .card{
+        padding: 20px;
+    }
+
+    .card h2{
+        font-size: 22px;
+    }
+
+    .card p{
+        font-size: 14px;
+    }
+    
+
+/* subtext */
+    .sub-text h3{
+        font-size: 20px;
+        border-width: 3px;
+        padding: 0 6px;
+    }
+
+/* lihatsemua-btn */
+    .lihatsemua-btn{
+        text-align: center;
+    }
+
+    .lihatsemua-btn a{
+        margin: 0 auto;
+        display: inline-block;
+        font-size: 14px;
+    }
+
+/* berita */
+    .card-berita{
+        margin: 10px 10px;
+        gap: 15px;
+    }
+
+    .ket-berita{
+        font-size: 13px;
+    }
+
+/* informasi-section */
+    .card-info{
+        margin: 15px 10px;
+        padding: 15px;
+    }
+
+    .info-tgl h3{
+        font-size: 24px;
+    }
+
+    .info-tgl .bulan{
+        font-size: 14px;
+    }
+
+    .info-tgl .jam{
+        font-size: 12px;
+    }
+
+     .info-tgl2 h3{
+        font-size: 24px;
+    }
+
+    .info-tgl2 .bulan{
+        font-size: 14px;
+    }
+
+    .info-tgl2 .jam{
+        font-size: 12px;
+    }
+
+    .text-info h3{
+        font-size: 15px;
+    }
+
+    .ket-info{
+        font-size: 13px;
+    }
+
+/* potensi-section */
+    .container-potensi{
+        grid-template-columns: 1fr;
+        gap: 18px;
+        padding: 0 16px;
+    }
+
+    .potensi-card{
+        width: 100%;
+        padding: 20px;
+    }
+
+    .judulpotensi h3{
+        font-size: 16px;
+    }
+
+    .text-potensi{
+        font-size: 13px;
+    }
+
+    .navlinks-potensi li a{
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+
+    .navlinks2-potensi a{
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+
+/* layanan-section */
+    .layanan{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin: 40px auto;
+    }
+
+    .card-layanan{
+        width: 90%;
+        padding: 20px;
+    }
+
+    .card-layanan img{
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .judul-layanan h3{
+        font-size: 16px;
+    }
+
+/* lapor-section */
+    .datelapor p{
+        font-size: 15px;
+    }
+
+    .text-lapor h3{
+        font-size: 16px;
+    }
+
+    .text-lapor p{
+        font-size: 13px;
+    }
+
+    .ditanggapi-btn a{
+        font-size: 11px;
+        padding: 6px 16px;
+    }
+
+/* peta-section */
+    .sub-peta h3{
+        font-size: 24px;
+    }
+
+    .icon-peta{
+        gap: 12px;
+    }
+    
+    .btn-selengkapnya a{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .peta-img iframe{
+        height: 300px;
+    }
+
+/* footer */
+    .logo-footer img{
+        width: 150px;
+    }
+
+    .line{
+        width: 90%;
+    }
+
+    .nav-links-footer li a{
+        font-size: 14px;
+        padding: 0 8px;
+    }
+
+    .icon-footer li a{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,85 @@
+.card-info{
+    background-color: white;
+    border-radius: 22px;
+    box-shadow: 0 4px 8px 2px rgba(93, 195, 178, 0.15);
+    margin: 20px 20px;
+    align-items: center;
+    display: flex;
+    gap: 25px;
+    padding: 25px 35px;
+}
+
+.info-tgl{
+    padding: 16px;
+}
+
+.info-tgl h3{
+    color: #f15a29;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    margin: 0;
+}
+
+.info-tgl .bulan{
+    color: #25345D;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.info-tgl .jam{
+    color: #959BAD;
+    font-size: 15px;
+    margin: 8px 0 0 0;
+}
+
+.info-tgl2{
+    padding: 16px;
+}
+
+.info-tgl2 h3{
+    color: #f15a29;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1;
+    margin: 0;
+}
+
+.info-tgl2 .bulan{
+    color: #25345D;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.info-tgl2 .jam{
+    color: #959BAD;
+    font-size: 15px;
+    margin: 8px 0 0 0;
+}
+
+.text-info{
+    flex: 1;
+}
+.text-info h3{
+    color: #25345D;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 15px 0;
+}
+
+.ket-info{
+    color: #68728B;
+    margin: 0;
+    font-size: 15px;
+}
+
+.lihatdetail-btn a{
+    text-decoration: none;
+    color: #f15a29;
+    font-weight: 500;
+    border: 2px solid #f15a29;
+    border-radius: 100px;
+    padding: 8px 20px;
+}

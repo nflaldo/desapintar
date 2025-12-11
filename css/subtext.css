@@ -1,0 +1,14 @@
+.sub-text{
+    text-align: center;
+    display: block;
+}
+
+.sub-text h3{
+    font-size: 32px;
+    font-weight: 500;
+    color: #1F2F59;
+    border-bottom: #f15a29 5px solid;
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}

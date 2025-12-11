@@ -1,0 +1,57 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 120px;
+   position: fixed;
+   background-color: #f9fafc;
+   width: 84%;
+   z-index: 1;
+}
+
+.logo img{
+    width: 154px;
+    height: auto;
+}
+
+.hamburger{
+    display: none;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    gap: 20px;
+}
+
+.nav-links .active{
+    color: #f15a29;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    padding: 0 12px;
+    display: block;
+}
+
+.masuk-btn a{
+    text-decoration: none;
+    background-color: #f15a29;
+    color: white;
+    border-radius: 100px;
+    font-weight: 600;
+    /* margin-left: 200px; */
+    padding: 12px 24px;
+}
